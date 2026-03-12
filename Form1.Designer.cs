@@ -35,10 +35,11 @@
             // 
             btnTarget.Location = new Point(179, 114);
             btnTarget.Name = "btnTarget";
-            btnTarget.Size = new Size(150, 46);
+            btnTarget.Size = new Size(304, 134);
             btnTarget.TabIndex = 0;
             btnTarget.Text = "나를 잡아봐";
             btnTarget.UseVisualStyleBackColor = true;
+            btnTarget.Click += btnTarget_Click;
             btnTarget.MouseEnter += btnTarget_MouseEnter;
             // 
             // Form1

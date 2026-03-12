@@ -9,11 +9,12 @@ namespace CatchButton
 
         private void btnTarget_MouseEnter(object sender, EventArgs e)
         {
+
             // 난수 생성기
             Random rd = new Random();
             // 영역 계산
-            int maxX = this.ClientSize.Width;
-            int maxY = this.ClientSize.Height;
+            int maxX = this.ClientSize.Width - btnTarget.Width;
+            int maxY = this.ClientSize.Height - btnTarget.Height;
 
             // 랜덤 좌표
             int randX = rd.Next(0, maxX);
@@ -24,6 +25,14 @@ namespace CatchButton
             //제목 텍스트 변경
             this.Text = $"버튼 위치: ({randX}, {randY})";
 
+        }
+
+        private void btnTarget_Click(object sender, EventArgs e)
+        {
+            //효과음 추가
+            System.Media.SystemSounds.Beep.Play();
+            //메시지 박스
+            MessageBox.Show("축하합니다~!");
         }
     }
 }
