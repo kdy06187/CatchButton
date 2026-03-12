@@ -33,12 +33,17 @@
             // 
             // btnTarget
             // 
+            btnTarget.AutoSize = true;
+            btnTarget.BackColor = SystemColors.Info;
+            btnTarget.FlatStyle = FlatStyle.Flat;
+            btnTarget.ForeColor = SystemColors.GrayText;
             btnTarget.Location = new Point(179, 114);
             btnTarget.Name = "btnTarget";
+            btnTarget.Padding = new Padding(10);
             btnTarget.Size = new Size(304, 134);
             btnTarget.TabIndex = 0;
             btnTarget.Text = "나를 잡아봐";
-            btnTarget.UseVisualStyleBackColor = true;
+            btnTarget.UseVisualStyleBackColor = false;
             btnTarget.Click += btnTarget_Click;
             btnTarget.MouseEnter += btnTarget_MouseEnter;
             // 
@@ -51,6 +56,7 @@
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
