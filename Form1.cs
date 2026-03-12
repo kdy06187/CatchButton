@@ -10,6 +10,7 @@ namespace CatchButton
         public Form1()
         {
             InitializeComponent();
+            this.Text = "버튼 잡기 게임";
             initsize = btnTarget.Size;
         }
         private void initiateGame()
