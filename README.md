@@ -16,12 +16,19 @@
 
 ## 실행 화면
 - 1단계 코드의 실행 스크린샷
+
 <img width="1826" height="1071" alt="image" src="https://github.com/user-attachments/assets/9c3b66c5-3922-4a55-b066-2c906fb97f89" />
+
 - 2단계 코드의 실행 스크린샷
+
 <img width="1176" height="685" alt="image" src="https://github.com/user-attachments/assets/aafb6ada-cbc4-43ee-877f-006c45432b9c" />
+
 - 3단계 코드의 실행 스크린샷
+
 <img width="499" height="346" alt="image" src="https://github.com/user-attachments/assets/9d1b615a-ac80-4da5-a2e6-ef43c8fd7998" />
+
 - 4단계 코드의 실행 스크린샷
+  
 <img width="1395" height="875" alt="image" src="https://github.com/user-attachments/assets/33f85bc1-deab-4914-87b0-48ab2baeef85" />
 
 ## 구현 시 어려웠던 점
