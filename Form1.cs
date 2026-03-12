@@ -24,6 +24,8 @@ namespace CatchButton
             btnTarget.Location = new Point(randX, randY);
             //제목 텍스트 변경
             this.Text = $"버튼 위치: ({randX}, {randY})";
+            //효과음 추가
+            System.Media.SystemSounds.Asterisk.Play();
 
         }
 
